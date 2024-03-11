@@ -1,1 +1,1 @@
-# nanopore sequencing analysis codes for amplification editing
+# Long-read sequencing analysis codes for amplification editing
