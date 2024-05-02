@@ -492,6 +492,10 @@ for (i in c(1:3)) {
 # /usr/bin/blastn -query ../RUNX1-WT.filteredRead.fasta -task 'megablast' -db RUNX1_left2.fa -out RUNX1-WT.L2.blastnRes -outfmt '6 std qlen slen qcovhsp qcovus' -perc_identity 100
 # /usr/bin/blastn -query ../RUNX1-WT.filteredRead.fasta -task 'megablast' -db RUNX1_right1.fa -out RUNX1-WT.R.blastnRes -outfmt '6 std qlen slen qcovhsp qcovus' -perc_identity 100
 # rm HEK4-1641-1.blastnRes.filtered_5A.*
+
+
+#DO NOT RUN BELOW CODES#
+#Not used for AE finally#
 setwd("LastRoundFilteration/")
 for (i in c(1:56)) {
   rrL<-fread(file = list.files(pattern = "HEK3.*.L.blastnRes$",recursive = F)[i])
